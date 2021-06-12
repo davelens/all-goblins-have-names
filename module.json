@@ -10,6 +10,6 @@
   "url": "https://github.com/davelens/all-goblins-have-names",
   "readme": "README.md",
   "license": "LICENSE",
-  "download": "https://github.com/davelens/all-goblins-have-names/archive/v1.2.1.zip",
+  "download": "https://github.com/davelens/all-goblins-have-names/archive/refs/tags/1.2.1.zip",
   "manifest": "https://raw.githubusercontent.com/davelens/all-goblins-have-names/temporary-0.8.6-installable-manifest/module.json"
 }
