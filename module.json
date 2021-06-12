@@ -11,5 +11,5 @@
   "readme": "README.md",
   "license": "LICENSE",
   "download": "https://github.com/davelens/all-goblins-have-names/archive/v1.2.1.zip",
-  "manifest": "https://github.com/davelens/all-goblins-have-names/blob/cf1a49947852a80c8fcbb8996b448708753951a5/module.json"
+  "manifest": "https://github.com/davelens/all-goblins-have-names/blob/temporary-0.8.6-installable-manifest/module.json"
 }
