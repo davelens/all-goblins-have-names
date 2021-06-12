@@ -1,15 +1,15 @@
 {
   "name": "all-goblins-have-names",
   "title": "All Goblins Have Names",
-  "description": "Use a table as the display name for a token. New tokens get a random name.",
+  "description": "Use a table as the display name for a token. New tokens get a random name. NOTE: Temporary fork until my PR gets merged!",
   "author": "Cattegy",
   "version": "1.2.0",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "0.8.6",
   "esmodules": ["scripts/index.js"],
-  "url": "https://github.com/jsabol/all-goblins-have-names",
+  "url": "https://github.com/davelens/all-goblins-have-names",
   "readme": "README.md",
   "license": "LICENSE",
-  "download": "https://github.com/jsabol/all-goblins-have-names/archive/v1.2.0.zip",
+  "download": "https://github.com/davelens/all-goblins-have-names/archive/v1.2.0.zip",
   "manifest": "https://raw.githubusercontent.com/davelens/all-goblins-have-names/master/module.json"
 }
