@@ -113,6 +113,29 @@ Hooks.on("ready", () => {
     }
   }
 
+  Hooks.on("renderTokenConfig", (tokenDocument, actor) => {
+    let tab = $('div[data-tab="character"]')
+    if(tab.length == 0) return
+
+    let module_name = 'all-goblins-have-names'
+    let template_path = `/modules/${module_name}/templates`
+
+    renderTemplate(`${template_path}/extended_token_config_form.html`).then(html => {
+      if($('.all-goblins-have-names').length == 0) tab.find('.form-group:first').after(html)
+      let select = tab.find('select[name="table_name"]')
+
+      game.tables.contents.forEach((data, index) => {
+        select.append(`<option value="${data.id}">${data.name}</option>`)
+      })
+
+      select.on('change', e => {
+        tab.find('input[name="name"]').val(
+          `@RollTable[${e.target.value}]{${select.find(`option[value="${e.target.value}"]`).text()}}`
+        )
+      })
+    })
+  });
+
   // Creating the token
   Hooks.on("createToken", async (tokenDocument, scene) => {
     // pick up the temporary flags we set in preCreateToken
