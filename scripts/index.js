@@ -125,7 +125,8 @@ Hooks.on("ready", () => {
       let select = tab.find('select[name="table_name"]')
 
       game.tables.contents.forEach((data, index) => {
-        select.append(`<option value="${data.id}">${data.name}</option>`)
+        if(!data.name.includes('Name: ')) return;
+        select.append(`<option value="${data.id}">${data.name.replace('Name: ', '')}</option>`)
       })
 
       select.on('change', e => {
