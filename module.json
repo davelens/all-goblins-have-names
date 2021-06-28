@@ -3,13 +3,13 @@
   "title": "All Goblins Have Names",
   "description": "Use a table as the display name for a token. New tokens get a random name. NOTE: This is a temporary fork from Cattegy's version until my PR gets merged.",
   "author": "davelens",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "minimumCoreVersion": "0.8.0",
-  "compatibleCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.8",
   "esmodules": ["scripts/index.js"],
   "url": "https://github.com/davelens/all-goblins-have-names",
   "readme": "README.md",
   "license": "LICENSE",
-  "download": "https://github.com/davelens/all-goblins-have-names/archive/refs/tags/1.2.1.zip",
+  "download": "https://github.com/davelens/all-goblins-have-names/archive/refs/tags/1.2.2.zip",
   "manifest": "https://raw.githubusercontent.com/davelens/all-goblins-have-names/temporary-0.8.6-installable-manifest/module.json"
 }
